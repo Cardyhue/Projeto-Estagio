@@ -1,0 +1,65 @@
+.container2 {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgba(180, 180, 184, 0.5);
+  fill-opacity: 0.5;
+}
+
+.imagem {
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.banner {
+  background-color: #fff;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.acesse {
+  text-align: center;
+}
+
+/* Media Queries para Responsividade */
+
+/* Tablets (768px para baixo) */
+@media (max-width: 768px) {
+.container2 {
+    padding: 1.5rem;
+  }
+
+  .imagem {
+    padding: 1.5rem;
+  }
+
+  .banner{
+    padding: 2.5rem 1.5rem;
+  }
+}
+
+/* Celulares (480px para baixo) */
+@media (max-width: 480px) {
+  .container2 {
+    padding: 1rem;
+  }
+
+  .imagem {
+    padding: 1rem;
+  }
+
+  .nav-links {
+    gap: 0.5rem;
+  }
+
+  .nav-links a {
+    padding: 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .banner{
+    padding: 2rem 1rem;
+  }
+}
