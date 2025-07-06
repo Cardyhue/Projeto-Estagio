@@ -14,6 +14,7 @@ body {
   max-width: 1100px;
   margin: auto;
   padding: 2rem;
+  text-align: center;
 }
 
 .navbar {
@@ -51,10 +52,29 @@ body {
   color: #2ee6c5;
 }
 
-.index, .sobre, .servicos, .contato {
+.banner .index, .sobre, .servicos, .contato {
   background-color: #fff;
   text-align: center;
   padding: 3rem 2rem;
+}
+
+.container2 {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgba(180, 180, 184, 0.5);
+  fill-opacity: 0.5;
+}
+
+.imagem {
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.acesse {
+  text-align: center;
 }
 
 /* Media Queries para Responsividade */
@@ -82,18 +102,31 @@ body {
     padding: 1.5rem;
   }
 
-  .index .sobre, .servicos, .contato {
+  .banner .index .sobre, .servicos, .contato {
     padding: 2.5rem 1.5rem;
   }
 
   .logo {
     font-size: 1.5rem;
   }
+
+  .container2 {
+    padding: 1.5rem;
+  }
+
+  .imagem {
+    padding: 1.5rem;
+  }
 }
+
 
 /* Celulares (480px para baixo) */
 @media (max-width: 480px) {
   .container {
+    padding: 1rem;
+  }
+
+    .container2 {
     padding: 1rem;
   }
 
@@ -104,13 +137,18 @@ body {
   .nav-links a {
     padding: 0.5rem;
     font-size: 0.95rem;
+    gap: 0.5rem;
   }
 
-  .index .sobre, .servicos, .contato {
+  .banner .index .sobre, .servicos, .contato {
     padding: 2rem 1rem;
   }
 
   .logo {
     font-size: 1.3rem;
+  }
+
+    .imagem {
+    padding: 1rem;
   }
 }
