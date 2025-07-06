@@ -82,7 +82,7 @@ body {
     padding: 1.5rem;
   }
 
-  .sobre, .servicos, .contato {
+  .index .sobre, .servicos, .contato {
     padding: 2.5rem 1.5rem;
   }
 
@@ -106,7 +106,7 @@ body {
     font-size: 0.95rem;
   }
 
-  .sobre, .servicos, .contato {
+  .index .sobre, .servicos, .contato {
     padding: 2rem 1rem;
   }
 
